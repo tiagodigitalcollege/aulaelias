@@ -1,0 +1,82 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.pai{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+.logo{
+    width: 25vw;
+    width: 35vh;
+    
+}
+.barradepesquisa{
+    width: 40vw;
+    padding-left: 10px;
+    color: #666666;
+
+}
+.pesquisa{
+
+    width: 35vw;
+    height: 5vh;
+    top:36.72px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 10px  ;
+    
+}
+.pesquisa::placeholder{
+    padding-left: 10px;
+    color: #a6a5a5;
+}
+#searchicon{
+    margin-left: -2vw;
+}
+.redirecionar{
+    width: 20vw;
+}
+
+.links{
+
+    display: flex;
+    justify-content: space-between;
+        
+
+}
+.links button{
+    margin-left: 2vw;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    background-color: #C92071;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    ;
+    
+}
+.oi{
+    
+    align-items: center;
+    display: flex;
+}
+#carrinho{
+    color: #C92071;
+    font-size: 20px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
